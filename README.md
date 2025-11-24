@@ -61,9 +61,9 @@ print(f"Temperature difference: {temp_diff:.2f}°C")
 print(f"Humidity difference: {hum_diff:.2f}%")
 
 if temp_diff > 2:
-    print("⚠️ Significant temperature variation between APIs.")
+    print("Significant temperature variation between APIs.")
 else:
-    print("✅ Both APIs show similar weather data.")
+    print("Both APIs show similar weather data.")
 
 # AI Explanation:
 The AI added code to calculate absolute differences and print warnings if they exceed a threshold, helping identify inconsistencies between APIs.
